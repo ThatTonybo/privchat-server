@@ -1,6 +1,6 @@
 {
   "name": "privchat-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Server portion of PrivChat",
   "main": "index.js",
   "author": "ThatTonybo",
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "random-id": "^1.0.4",
-    "ws": "^7.3.0"
+    "ws": "^7.3.0",
+    "yargs-parser": "^18.1.3"
   }
 }

@@ -1,10 +1,13 @@
 {
   "name": "privchat-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Server portion of PrivChat",
   "main": "index.js",
   "author": "ThatTonybo",
   "license": "MIT",
+  "bin": {
+    "privchat-server": "./bin/privchat-server"
+  },
   "dependencies": {
     "random-id": "^1.0.4",
     "ws": "^7.3.0"

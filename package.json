@@ -1,12 +1,16 @@
 {
   "name": "privchat-server",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Server portion of PrivChat",
   "main": "index.js",
   "author": "ThatTonybo",
   "license": "MIT",
   "bin": {
     "privchat-server": "./bin/privchat-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThatTonybo/privchat-server"
   },
   "dependencies": {
     "random-id": "^1.0.4",
